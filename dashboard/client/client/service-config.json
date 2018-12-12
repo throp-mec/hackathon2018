@@ -1,0 +1,9 @@
+{
+    "name": "project-name",
+    "resources": [
+      "/",
+      "/index.html",
+      "/manager.bundle.js",
+      "/service.bundle.js"
+    ]
+}

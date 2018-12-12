@@ -1,0 +1,73 @@
+{
+    "frames": [{
+        "id": "api-info",
+        "desc": "Shows all the possible frames",
+        "title": "Dashboard Info",
+        "populator": "frames"
+    }, {
+        "id": "new-relic",
+        "desc": "Shows the storefront response time",
+        "title": "Storefront Response (NewRelic)"
+    }, {
+        "id": "current-sre",
+        "title": "Current SRE",
+        "desc": "Displays the slack handle and status of current SRE dev",
+        "populator": "slack.get_user"
+    }, {
+        "id": "mecca",
+        "title": "mecca Repo Coverage",
+        "desc": "Displays the coverage for the mecca project",
+        "populator": "cover/lint"
+    }, {
+        "id": "new-relic-error",
+        "desc": "Storefront errors",
+        "title": "Storefront Error Rate (NewRelic)"
+    }, {
+        "id": "new-relic-throughput",
+        "title": "Storefront Throughput (NewRelic)",
+        "desc": "Shows the current number of sessions on storefront"
+    }, {
+        "id": "production-links",
+        "title": "Production Links",
+        "desc": "A list of useful links to access production sites"
+    }, {
+        "id": "imgix-bandwidth",
+        "title": "Imigix Bandwidth (Kibana)",
+        "desc": "Shows the bytes used in the last 15 minutes"
+    }, {
+        "id": "db-and-mq-status",
+        "title": "DB & MQ",
+        "desc": "Pings the status of the database and message queue",
+        "populator": "pinger"
+    }],
+    "services": {
+        "current-sre": {
+            "id": "UCL8XR04Q",
+            "felix_id": "UCL8XR04Q",
+            "diego_id": "U90848KM1",
+            "joel_id": "U03J5CAGC",
+            "lalit_id": "U03JY6PGQ",
+            "james_id": "UBJ10AUKT"
+        }
+    },
+    "unused-frames": [{
+        "id": "sonarQube",
+        "title": "SonarQube"
+    }, {
+        "id": "kibana",
+        "title": "Kibana Errors"
+    }, {
+        "id": "jenkins",
+        "title": "Jenkins"
+    }, {
+        "id": "jira",
+        "title": "Jira"
+    }, {
+        "id": "uat-links",
+        "title": "UAT Links",
+        "desc": "A list of useful links to access UAT sites"
+    }, {
+        "id": "server-load",
+        "title": "Server Loads"
+    }]
+}
